@@ -1,18 +1,24 @@
 /**
  */
-let nomeproduto = 'spato'
+let produto = 'sapato'
 
-let nome2produto ='calsa'
+let a2produto ='calça'
 
-let nome3produto ='camisa'
+let b3produto ='camisa'
 
-let nome4produto ='short'
+let c4produto ='short'
 
-let nomeproduto5 ='sandalia'
+let d5produto ='sandalia'
 
 
-console.log("nome: " + nomeproduto)
-console.log("nome: " + nome2produto)
-console.log("nome: " + nome3produto)
-console.log("nome: " + nome4produto)
-console.log("nome: " + nomeproduto5)
+console.log("nome: " + produto)
+console.log("nome: " + a2produto)
+console.log("nome: " + b3produto)
+console.log("nome: " + c4produto)
+console.log("nome: " + d5produto)
+
+console.log(typeof produto )
+console.log(typeof a2produto )
+console.log(typeof b3produto )
+console.log(typeof c4produto )
+console.log(typeof d5produto )
