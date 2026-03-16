@@ -5,16 +5,21 @@
 //verifique, se todas as frutas foram removidas
 //imprima "nenhuma fruta encontrada"
 const frutas = ['jaca', 'manga', 'maracuja']
-console.log(frutas)
+//console.log(frutas)
 frutas.push('pessego')
 frutas.push('abacate')
 frutas.push('banana')
 frutas.push('mulango')
 //console.log(frutas)
 console.log(frutas.length)
-while (frutas.length == 0) {
+while (frutas.length > 0)
+    frutas.pop()
+if(frutas.length == 0)
+ {
     console.log("não há frutas para vender!!!")
+    
 }
 
     
-    console.log(frutas) 
+    console.log(frutas)
+    console.log(frutas.length) 
