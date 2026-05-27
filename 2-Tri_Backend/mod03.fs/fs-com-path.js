@@ -10,7 +10,7 @@ const fs = require('fs')
 
 
 // Abrir, ler, deletar, editar
-// const caminho = path.resolve(__dirname, 'README.md') //Markdown, text,
+//Markdown, text,
 const caminho = path.resolve(__dirname, 'README.md')
 const arquivo = fs.readFileSync(caminho, 'utf-8')
 console.log(arquivo)
