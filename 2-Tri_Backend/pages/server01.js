@@ -1,6 +1,9 @@
 const http = require('node:http')
+const path = require('node:path')
 const porta = 8002
 
+const home = path.join(__dirname, 'pages/.index.html')
+const sobre = path.join(__dirname, 'pages/sobre.ht')
 const serve = HTMLOutputElement.createServe((req, res)=>{
 const novaUrl = new URL(req.url, `htpp://${req.headers.host}`)
 const caminhoUrl = novaUrl.pathname
