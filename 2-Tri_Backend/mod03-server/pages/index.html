@@ -1,15 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <link rell="stlyesheet" href="https://cloudflare.com">
-    <link rel="preconnect" href="https://gstatic.com" crossorigin>
-    <link rel="data:image/jpeg;base64,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">
-    <link rel="stlyesheet" href="-/public/estilo.css"
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mundo dos Cães | Início</title>
+    <link rel="stylesheet" href="/css/estilo.css">
 </head>
 <body>
+    <header>
+        <div class="header-container">
+            <h1><span>🐶</span> Mundo dos Cães</h1>
+            <nav>
+                <a href="/" class="active">Início</a>
+                <a href="/sobre">Sobre Nós</a>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section class="hero-section">
+            <h2>Bem-vindo ao portal dos apaixonados por cães!</h2>
+            <p>Descubra curiosidades, dicas de cuidados e explore o universo do melhor amigo do homem de forma simples e divertida.</p>
+        </section>
 
+        <section class="cards-grid">
+            <div class="card">
+                <div class="card-icon">🐕</div>
+                <h3>Golden Retriever</h3>
+                <p>Doces, inteligentes e extremamente brincalhões. São companheiros perfeitos para famílias ativas e adoram água.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">⚡</div>
+                <h3>Pastor Alemão</h3>
+                <p>Leais, protetores e altamente treináveis. Destacam-se tanto como cães de guarda quanto como membros dedicados do lar.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Mundo dos Cães. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
