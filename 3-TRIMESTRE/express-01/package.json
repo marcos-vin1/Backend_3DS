@@ -2,8 +2,9 @@
   "name": "express-01",
   "version": "1.0.0",
   "description": "",
-  "main": "serve.js",
+  "main": "src/serve.js",
   "scripts": {
+    "start": "node src/serve.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
